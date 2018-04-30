@@ -46,6 +46,7 @@ After building, set places of decodeqr.h, qrtypes.h, qrerror.h and libdecodeqr.l
 
 ==== UN*X ====
  1. $ cd $(archive_dir)/src/
+ 1. $ autoreconf -i
  1. $ ./configure
  1. $ make
  1. $ sudo make install
